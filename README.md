@@ -19,10 +19,10 @@ We increase them to 8.33 m/s2 (0.85 G) and 83.3 m/s3, following the JAMA standar
 The hardware requirements are listed here:
 https://autowarefoundation.github.io/AWSIM-Labs/main/GettingStarted/QuickStartDemo/#pc-specs
 
-To run an end-to-end Autoware simulation with the [AWSIM-Labs simulator](https://github.com/dtanony/AWSIM-Labs), a PC equipped with a GPU is required.
+To run an end-to-end Autoware simulation with the [AWSIM-Labs simulator](https://github.com/duongtd23/AWSIM-Labs), a PC equipped with a GPU is required.
 Because of the specific GPU driver and CUDA dependencies, a pre-built binary release of Autoware is not available for this setup.
 Therefore, if you want to run an end-to-end simulation with AWSIM-Labs, the only option is to build Autoware from source.
-To install AWSIM-Labs, follow the instructions on its [repository](https://github.com/dtanony/AWSIM-Labs).
+To install AWSIM-Labs, follow the instructions on its [repository](https://github.com/duongtd23/AWSIM-Labs).
 
 To install and launch this extended Autoware version, follow the procedure below (adapted from https://autowarefoundation.github.io/AWSIM-Labs/main/GettingStarted/QuickStartDemo and https://autowarefoundation.github.io/autoware-documentation/main/installation/autoware/source-installation/).
 
@@ -33,7 +33,7 @@ to some location, for example, `~/autoware_map`
 
 ```bash
 cd ~
-git clone https://github.com/dtanony/autoware0412.git autoware
+git clone https://github.com/duongtd23/autoware0412.git autoware
 cd autoware
 ```
 
